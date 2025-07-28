@@ -53,7 +53,11 @@ fun CryptoItemPreview() {
                 name = "Bitcoin",
                 symbol = "BTC",
                 price = 118000.0,
-                lastUpdated = dateInMillis
+                lastUpdated = dateInMillis,
+                percentChange1h = 5.0,
+                percentChange24h = -2.0,
+                percentChange7d = 20.0,
+                percentChange30d = 30.0
             ),
             modifier = Modifier.fillMaxWidth()
         )
